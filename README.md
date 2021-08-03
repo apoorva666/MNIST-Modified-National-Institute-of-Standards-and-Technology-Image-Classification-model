@@ -15,5 +15,7 @@ Steps:
 9. Image flatted, 3 hidden layers created with Dense() which multiplies the inputs with their weights & adds biases. Activation function chosen=Relu. Relu chosen as it can classify better than other activation functions & doesn't pose the issue of vanishing gradient descent.
 10. Output_layer specified with softmax activation function (Activation Function used in multi-classification models).
 11. 'Adam Optimizer' chosen as it is the most efficient of all optimizers as it uses both learning rate & momentum.
-12. Loss function chosen=sparse_categorical_crossentropy
-
+12. Loss function chosen=sparse_categorical_crossentropy (as the outputs are one-hot encoded).
+13. Training - Number of epochs chosen=5, data fit to the model.
+14. Testing - Model tested for accuracy & loss.
+15. Finally, model's learning tested with an MNIST image.  
