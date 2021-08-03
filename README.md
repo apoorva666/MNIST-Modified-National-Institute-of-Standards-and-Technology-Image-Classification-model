@@ -6,7 +6,7 @@ Aim: To build a deep learning model that can distinguish between handwritten dig
 Steps:
 1. Loaded the dataset
 2. Extracted 10% of the training set for validation & converted the number of validation samples to int
-3. Extracted test data  converted number of test samples to int
+3. Extracted test data & converted number of test samples to int
 4. Scaled all the inputs/pixels of an image by dividing them by 255 & converted them to float (complete train_data). Each pixel has a greyscale value (color) ranging from 0-255, 0 being black & 255 being white. All the pixels now have a value between 0 & 1. The scaled variable was then mapped to the entire train dataset & test dataset. 
 5. Data shuffling to prevent bias while learning- data shuffled 10,000 values at a time, shuffled train_data & validation_data extracted. 
 6. Optimized the model using stochastic gradient descent instead of gradient descent as it processes large datasets faster. The batch size was chosen as 1000 for train, test, & validation sets.
