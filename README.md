@@ -13,6 +13,7 @@ Libraries used: Tensorflow, Matplotlib, Numpy
 Development Environment: Google Colab.
 
 
-MNIST dataset - It is a dataset consisting of 70,000 small square 28×28 pixel grayscale images of handwritten single digits between 0 and 9. Each pixel is associated with a number ranging from 0 to 255 which denotes the intensity of the pixel's color. 0 is taken as black & 255 is taken as white. The original dataset has black & white images. The dataset used in this project consists of colored images.
+MNIST dataset - It is a dataset consisting of 70,000 small square 28×28 pixel grayscale images of handwritten single digits between 0 and 9. Each pixel is associated with a number ranging from 0 to 255 which denotes the intensity of the pixel's color. 0 is taken as black & 255 is taken as white. 
+The original dataset has black & white images. The images displayed in our project are colored as the imshow() method of matplotlib has been used.
 
 The MNIST database is available at http://yann.lecun.com/exdb/mnist/
